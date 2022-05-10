@@ -53,7 +53,7 @@ int main(int argc, char** argv) {
 
     const std::string& datapath = DATA_PATH;
 
-    const std::string inputname = "/obj/building.obj";
+    const std::string inputname = "/obj/head.obj";
     const std::string& inputfile = datapath + inputname;
     const char* inputfile_c_str = inputfile.c_str();
     Model* model = new Model(inputfile_c_str);
