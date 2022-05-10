@@ -6,5 +6,5 @@ add_definitions(
   -DDATA_PATH=\"${PROJECT_SOURCE_DIR}/data\"
 )
 
-add_executable (Learn_Renderer "src/tgaimage.cpp" "src/tgaimage.h" "src/main.cpp")
+add_executable (Learn_Renderer "src/tgaimage.cpp" "src/tgaimage.h" "src/main.cpp" "src/model.h" "src/model.cpp" "src/geometry.h" "src/header.h")
 

@@ -1,11 +1,7 @@
 ﻿#ifndef __IMAGE_H__
 #define __IMAGE_H__
 
-#include <iostream>
-#include <fstream>
-#include <string.h>
-#include <time.h>
-#include <math.h>
+#include "header.h"
 
 #pragma pack(push,1)
 struct TGA_Header {
